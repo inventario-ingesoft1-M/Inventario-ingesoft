@@ -44,7 +44,7 @@
 ![Diagrama](/Diagrama.PNG)
 
   <details>
-    <summary>Show source code</summary>
+    <summary>Codigo del diagrama</summary>
   
 ```mermaid
 graph TD;
