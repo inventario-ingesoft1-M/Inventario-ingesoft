@@ -38,7 +38,14 @@
 
 
 
+
 # Diagrama de caso de uso
+
+![Diagrama](/Diagrama.PNG)
+
+  <details>
+    <summary>Show source code</summary>
+  
 ```mermaid
 graph TD;
       Inicio(Inicio de la aplicacion)
@@ -73,7 +80,7 @@ graph TD;
       EliminarV--> final(Fin)
          
 ```
-         
+</details>     
 
 
 
