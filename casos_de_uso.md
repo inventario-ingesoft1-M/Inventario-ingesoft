@@ -1,20 +1,35 @@
 ##Diagramas de caso
 
 -usuario
-```mermaid 
+```mermaid
 graph LR
 a([usuarios]) --> b{ingresar}
+
 b{ingresar} --> c[cliente]
- c[cliente]-->g[registro]
-              g[registro]-->h[datos]
-              g[registro]-->i[ubicacion]
- c[cliente]-->j[ingresar]
-b{ingresar} -->d[adminstrador]
- d[adminstrador] -->e[registro]
-              e[registro]-->k[datos]
-              e[registro]-->l[ubicacion]    
- d[adminstrador] -->f[ingresar]
-```
+c[cliente] --> e[Comprobar existencias]
+e[Comprobar existencias] --> f{Registrar}
+f{Registrar} --> h[ventas]
+
+b{ingresar} --> d[administrador]
+d[administrador] --> e[Comprobar existencias]
+e[Comprobar existencias] --> g{Registrar}
+
+g{Registrar} --> h[ventas]
+
+g{Registrar} --> k{Editar}
+k{Editar} --> m[ventas]
+k{Editar} --> n[categorias]
+k{Editar} --> ñ[productos]
+
+g{Registrar} --> i[categorias]
+
+g{Registrar} --> l{Eliminar}
+l{Eliminar} --> o[ventas]
+l{Eliminar} --> p[categorias]
+l{Eliminar} --> q[productos]
+
+g{Registrar} --> j[productos]
+ ```
 
 -productos
 ```mermaid 
