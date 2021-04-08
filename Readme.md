@@ -4,6 +4,7 @@
 - [Requerimientos del proyecto](#Requerimientos-del-proyecto)
 - [Requerimientos del sistema](#Requerimientos-del-sistema)
 - [Diagrama de caso de uso](#Diagrama-de-caso-de-uso)
+- [Diagrama de clases con base de datos](#Diagrama-de-clases-con-base-de-datos)
 - [Legal](#Legal)
 
 ## Requerimientos del proyecto
@@ -82,6 +83,11 @@ graph TD;
 ```
 </details>     
 
+
+## Diagrama de clases con base de datos:
+
+
+![imagen](https://github.com/inventario-ingesoft1-M/Inventario-ingesoft/blob/main/diagramaclases.png)
 
 
 ## Legal:
